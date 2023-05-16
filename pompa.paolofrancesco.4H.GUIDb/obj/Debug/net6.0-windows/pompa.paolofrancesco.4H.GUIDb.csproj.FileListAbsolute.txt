@@ -1,0 +1,5 @@
+C:\Users\P4020\OneDrive\Desktop\pompa.paolofrancesco.4H.GUIDb\obj\Debug\net6.0-windows\pompa.paolofrancesco.4H.GUIDb.csproj.AssemblyReference.cache
+C:\Users\P4020\OneDrive\Desktop\pompa.paolofrancesco.4H.GUIDb\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\P4020\OneDrive\Desktop\pompa.paolofrancesco.4H.GUIDb\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\P4020\OneDrive\Desktop\pompa.paolofrancesco.4H.GUIDb\obj\Debug\net6.0-windows\pompa.paolofrancesco.4H.GUIDb_MarkupCompile.cache
+C:\Users\P4020\OneDrive\Desktop\pompa.paolofrancesco.4H.GUIDb\obj\Debug\net6.0-windows\pompa.paolofrancesco.4H.GUIDb_MarkupCompile.lref
