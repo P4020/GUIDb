@@ -16,15 +16,15 @@ dotnet add package sqlite-net-pcl
 ### Codice C#
 ###### Per visualizzare gli artisti che troviamo nel file chinook.db utilizzare il seguente codice e andarlo ad incollare nel MainWondow.xaml.cs:
 ```
-            SQLiteConnection cn1 = new SQLiteConnection("chinook.db");
-            List<Artist> tblArtists = cn1.Query<Artist>("select * from artists");
-            Console.WriteLine($"In questa tabella ci sono {cn1.Query<Artist>("select * from artists").Count} record!");
+SQLiteConnection cn1 = new SQLiteConnection("chinook.db");
+List<Artist> tblArtists = cn1.Query<Artist>("select * from artists");
+Console.WriteLine($"In questa tabella ci sono {cn1.Query<Artist>("select * from artists").Count} record!");
 
-            tblArtists = cn1.Query<Artist>("select * from artists").OrderByDescending(x=>x.Name).ToList();
-            foreach(var artista in cn1.Query<Artist>("select * from artists"))
-            {
-                Console.WriteLine($"{artista.Name}");
-            }    
+tblArtists = cn1.Query<Artist>("select * from artists").OrderByDescending(x=>x.Name).ToList();
+foreach(var artista in cn1.Query<Artist>("select * from artists"))
+{
+            Console.WriteLine($"{artista.Name}");
+}    
  ```
  ![image](https://github.com/P4020/GUIDb/assets/117436985/20b0d871-2815-47e3-9fde-996ed5cbb1d5)
 
